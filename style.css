@@ -5,7 +5,23 @@ html {
 }
 
 /** ESTILIZAÇAO DE DIVS **/
-/** PAGINA INDEX **/
+
+div {
+    width: 500px;
+    border: 2px solid black;
+}
+
+p{
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: normal;
+    word-break: break-word;
+}
+
+
+
+/** PAGINA INDEX 
 
 .mainIndex {
     background-color: yellow;
@@ -13,11 +29,11 @@ html {
     height: 85vh;
 }
 
-/**.firstDiv {
+.firstDiv {
     background-color: red;
     width: auto;
     height: 200px;
-}**/
+}
 
 .secondDiv{
     background-color: cadetblue;
@@ -31,4 +47,4 @@ html {
 
 p {
     font-size: 1rem;
-}
+} **/
