@@ -1,0 +1,18 @@
+div.amarelo {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+div.amarelo div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+div.amarelo > div {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
