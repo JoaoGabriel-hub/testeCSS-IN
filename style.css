@@ -4,15 +4,10 @@ div.amarelo {
     height: 500px;
 }
 
-div.amarelo div {
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
+html {
+    font-size: 20px;
 }
 
-div.amarelo > div {
-    background-color: blue;
-    width: 300px;
-    height: 300px;
+p {
+    font-size: 1rem;
 }
