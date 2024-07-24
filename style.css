@@ -5,23 +5,28 @@ html {
 }
 
 /** ESTILIZAÇAO DE DIVS **/
-
-div {
-
-}
-
 /** PAGINA INDEX **/
 
 .mainIndex {
     background-color: yellow;
-    width: 50%;
-    height: 100vh;
+    width: 100%;
+    height: 85vh;
 }
 
-.firstDiv {
+/**.firstDiv {
     background-color: red;
-    width: 10ch;
-    height: 50px;
+    width: auto;
+    height: 200px;
+}**/
+
+.secondDiv{
+    background-color: cadetblue;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px 5px;
+    margin: 10px;
 }
 
 p {
