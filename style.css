@@ -17,6 +17,9 @@ p{
     line-height: 1.5;
     white-space: normal;
     word-break: break-word;
+    color: blue;
+    font-weight: 600;
+    text-shadow: 1px 2px 1px black;
 }
 
 
