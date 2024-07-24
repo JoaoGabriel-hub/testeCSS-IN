@@ -1,11 +1,27 @@
-div.amarelo {
-    background-color: yellow;
-    width: 500px;
-    height: 500px;
-}
+/** GLOBAL **/
 
 html {
     font-size: 20px;
+}
+
+/** ESTILIZAÇAO DE DIVS **/
+
+div {
+
+}
+
+/** PAGINA INDEX **/
+
+.mainIndex {
+    background-color: yellow;
+    width: 50%;
+    height: 100vh;
+}
+
+.firstDiv {
+    background-color: red;
+    width: 10ch;
+    height: 50px;
 }
 
 p {
