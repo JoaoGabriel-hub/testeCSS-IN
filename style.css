@@ -6,6 +6,10 @@ h1 {
     font-size: 100px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .firstDiv {
     background-color: yellow;
     width: 100vw;
@@ -19,6 +23,25 @@ h1 {
 .secondDiv{
     background-color: cadetblue;
     width: 100vw;
+    height: 308px;
+}
+
+.secondDiv img {
+    margin-top: 25px;
+    margin-left: 200px;
+    border-radius: 50%;
+}
+
+.texto {
+    width: 614px;
+    height: 186px;
+    margin-left: 600px;
+    margin-top: -250px;
+}
+
+.thirdDiv {
+    background-color: green;
+    width: 100vw;
     height: 250px;
 }
 
@@ -29,11 +52,11 @@ h1 {
     height: 50px;
 }
 
-.thirdDiv {
-    background-color: green;
-    width: 100vw;
-    height: 250px;
-}
+/**.fourthDiv button {
+    margin-left: 1200px;
+    margin-top: 20px;
+}**/
+
 
 /**.box {
     font-size: 2rem;
