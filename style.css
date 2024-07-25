@@ -10,6 +10,10 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 .firstDiv {
     background-color: yellow;
     width: 100vw;
@@ -43,6 +47,37 @@ h2 {
     background-color: green;
     width: 100vw;
     height: 250px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hoobies, .top {
+    width: 45%;
+}
+
+.lista-hoobies-top5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: gray;
+    border: 1px solid pink;
+    padding: 27px;
+    text-align: center;
+    width: 18%;
+    box-sizing: border-box;
+}
+
+#subtitulo-hoobies {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+#subtitulo-top5 {
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 
@@ -55,32 +90,4 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-/**.box {
-    font-size: 2rem;
-    height: 100px;
-    width: 200px;
-    background-color: pink;
-    border: solid 5px violet;
-    margin: 2px;
-}
-
-.lista1 {
-    width: 600px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    margin-top: 10px;
-}
-
-h2 {
-    text-align: rigth;
-    font-size: 40px;
-    margin-bottom: 10px;
-}**/
-
-
 
