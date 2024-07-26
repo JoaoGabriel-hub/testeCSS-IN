@@ -57,6 +57,10 @@ h3 {
     display: block;
     margin: 0; 
     margin-left: auto;
+
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .texto {
@@ -139,6 +143,10 @@ h3 {
     font-size: 1rem;
 }
 
+.fourthDiv button:hover {
+    background-color: blue;
+}
+
 @media (min-width: 600px) {
     .thirdDiv {
         flex-direction: row;
@@ -159,3 +167,14 @@ h3 {
     }
 }
 
+@keyframes animacao {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
