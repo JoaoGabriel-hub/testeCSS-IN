@@ -70,6 +70,10 @@ h3 {
     margin-left: auto;
 }
 
+.texto:hover {
+    border: 5px solid white;
+}
+
 .thirdDiv {
     background-color: green;
     width: 100%;
